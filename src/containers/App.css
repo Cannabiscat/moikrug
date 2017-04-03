@@ -1,0 +1,59 @@
+/*.App {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.App-header {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  height: 8vh;
+  width: 100vw;
+  padding: 20px;
+  color: white;
+}
+.App-header h2 {
+  margin: auto;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.side-menu, .content {
+  display: flex;
+  height: 92vh;
+}
+
+.side-menu {
+  background-color: lightgrey;
+  width: 30%;
+}
+
+.content {
+  background-color: darkgrey;
+  width: 70%;
+}
+*/
+.list, .list > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item:hover {
+  cursor: pointer;
+  background-color: rgba(162, 162, 162, 0.8);
+  color: rgba(255, 255, 255, 1);
+}
+.selected {
+  background-color: rgba(100, 100, 100, 0.8);
+  color: white;
+}
+.employee-department {
+  font-size: smaller;
+  font-style: italic;
+  text-align: end;
+}
+.btn-xs {
+  max-height: 1.8em;
+}
